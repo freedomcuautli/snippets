@@ -1,0 +1,19 @@
+<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+        		<form id="contacto" name="contacto" method="post" class="form">
+                	<input class="input-text required" type="text" name="name" value="Nombre *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" required>
+                    <input class="input-text" type="email" name="email" value="usuario@dominio.com" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" required>
+                	<textarea class="input-text text-area" name="message" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Mensaje *</textarea>
+                	<input id="submit" name="submit" type="submit" value="Send Message" class="input-btn">
+				</form>
+				<div id="success">
+				  <span>
+				    <p>Mensaje enviado con éxito! Me pondré en contacto con usted lo más pronto posible.</p>
+				  </span>
+				</div>
+					
+				<div id="error">
+				  <span>
+				    <p>Error en el envío, por favor intente más tarde.</p>
+				  </span>
+				</div>
+</div>
